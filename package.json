@@ -1,0 +1,32 @@
+{
+  "name": "@truesilary/game",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/TokarevSilary/unit-test-game#readme",
+  "bugs": {
+    "url": "https://github.com/TokarevSilary/unit-test-game/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TokarevSilary/unit-test-game.git"
+  },
+  "license": "ISC",
+  "author": "truesilary",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0",
+    "husky": "^9.1.7",
+    "jest": "^30.4.2"
+  }
+}
