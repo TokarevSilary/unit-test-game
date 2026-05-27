@@ -1,5 +1,5 @@
 import {test, expect } from "@jest/globals";
-import status from "../index.js"
+import status from "../app.js"
 
 test("status healthy", ()=> {
 	const magic = {name: 'Маг', health: 90};
