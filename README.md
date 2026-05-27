@@ -1,0 +1,1 @@
+![CI/CD](https://github.com/TokarevSilary/unit-test-game/actions/workflows/ci.yml/badge.svg)
